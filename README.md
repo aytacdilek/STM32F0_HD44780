@@ -1,6 +1,6 @@
 STM32F0_HD44780
 ===============
-In this project, i rewrote the driver of hd44780 for stm32f0discovery envirement.
+In this project, i rewrote the driver of hd44780 for stm32f0discovery environment.
 
 Compiler: GNU-ARM
 
