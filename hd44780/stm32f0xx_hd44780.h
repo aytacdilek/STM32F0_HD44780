@@ -1,5 +1,5 @@
-#ifndef __LCD_H
-#define __LCD_H
+#ifndef __STM32F0XX_HD44780_H
+#define __STM32F0XX_HD44780_H
 
 #include "stm32f0xx.h"
 #include "stm32f0xx_rcc.h"
@@ -148,4 +148,4 @@ void LCD_WriteData(uint8_t n);
 
 void DelayMs(uint32_t nTime);
 
-#endif
+#endif	//__STM32F0XX_HD44780_H
