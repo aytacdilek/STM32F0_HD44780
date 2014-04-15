@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IF:\REPOSITORIES\STM32F0_KS0108\trunk\stm32_lib -IF:\REPOSITORIES\STM32F0_KS0108\trunk -IF:\REPOSITORIES\STM32F0_KS0108 -IF:\REPOSITORIES\STM32F0_KS0108\trunk\hd44780 -IF:\REPOSITORIES\STM32F0_KS0108\trunk\cmsis_core -IF:\REPOSITORIES\STM32F0_KS0108\trunk\stm32_lib\inc -IF:\REPOSITORIES\STM32F0_KS0108\trunk\cmsis_boot">
-      <target file="stm32f0xx_gpio.o" lastModified="14564e08940">
+   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IF:\REPOSITORIES\STM32F0_HD44780 -IF:\REPOSITORIES\STM32F0_HD44780\trunk\stm32_lib\inc -IF:\REPOSITORIES\STM32F0_HD44780\trunk\cmsis_core -IF:\REPOSITORIES\STM32F0_HD44780\trunk\cmsis_boot -IF:\REPOSITORIES\STM32F0_HD44780\trunk -IF:\REPOSITORIES\STM32F0_HD44780\trunk\stm32_lib -IF:\REPOSITORIES\STM32F0_HD44780\trunk\hd44780">
+      <target file="stm32f0xx_gpio.o" lastModified="14564f9ce00">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="1449c2eaae0"/>
       </target>
-      <target file="stm32f0xx_hd44780.o" lastModified="14564e08940">
-         <source file="..\..\..\hd44780\stm32f0xx_hd44780.c" lastModified="144a757ff70"/>
+      <target file="stm32f0xx_hd44780.o" lastModified="14564f9ce00">
+         <source file="..\..\..\hd44780\stm32f0xx_hd44780.c" lastModified="14564e386e0"/>
       </target>
-      <target file="stm32f0xx_rcc.o" lastModified="14564e08940">
+      <target file="stm32f0xx_rcc.o" lastModified="14564f9c630">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="1449c2eaae0"/>
       </target>
-      <target file="system_stm32f0xx_temp.o" lastModified="14564e08940">
+      <target file="system_stm32f0xx_temp.o" lastModified="14564f9ce00">
          <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="1449c2eaae0"/>
       </target>
-      <target file="startup_stm32f0xx.o" lastModified="14564e08940">
+      <target file="startup_stm32f0xx.o" lastModified="14564f9ce00">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="1449c2eaae0"/>
       </target>
-      <target file="main.o" lastModified="14564e08940">
+      <target file="main.o" lastModified="14564f9ce00">
          <source file="..\..\..\main.c" lastModified="14564db97a0"/>
       </target>
    </processor>

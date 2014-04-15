@@ -55,7 +55,7 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_hd44780.h" partName="stm32f0xx_hd44780.h" path="F:/REPOSITORIES/STM32F0_HD44780/trunk/hd44780/stm32f0xx_hd44780.h" title="stm32f0xx_hd44780.h" tooltip="F:/REPOSITORIES/STM32F0_HD44780/trunk/hd44780/stm32f0xx_hd44780.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F0_HD44780/hd44780/stm32f0xx_hd44780.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2313" selectionTopPixel="1588"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1693" selectionTopPixel="90"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_hd44780.c" partName="stm32f0xx_hd44780.c" path="F:/REPOSITORIES/STM32F0_HD44780/trunk/hd44780/stm32f0xx_hd44780.c" title="stm32f0xx_hd44780.c" tooltip="F:/REPOSITORIES/STM32F0_HD44780/trunk/hd44780/stm32f0xx_hd44780.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F0_HD44780/hd44780/stm32f0xx_hd44780.c"/>
@@ -462,12 +462,6 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_hd44780.c" tooltip="STM32F0_HD44780/hd44780/stm32f0xx_hd44780.c">
-<persistable path="/STM32F0_HD44780/hd44780/stm32f0xx_hd44780.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_hd44780.h" tooltip="STM32F0_HD44780/hd44780/stm32f0xx_hd44780.h">
-<persistable path="/STM32F0_HD44780/hd44780/stm32f0xx_hd44780.h"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_hd44780.c" tooltip="STM32F0_HD44780/lcd/stm32f0xx_hd44780.c">
 <persistable path="/STM32F0_HD44780/lcd/stm32f0xx_hd44780.c"/>
 </file>
@@ -504,6 +498,12 @@
 <file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
 <persistable>&#x0A;<subPage horizontalPosition="0" selectedItemId="421" subPageIndex="2" verticalPosition="0"/>
 </persistable>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_hd44780.c" tooltip="STM32F0_HD44780/hd44780/stm32f0xx_hd44780.c">
+<persistable path="/STM32F0_HD44780/hd44780/stm32f0xx_hd44780.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_hd44780.h" tooltip="STM32F0_HD44780/hd44780/stm32f0xx_hd44780.h">
+<persistable path="/STM32F0_HD44780/hd44780/stm32f0xx_hd44780.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_hd44780.c" tooltip="STM32F0_HD44780/lcd/stm32f0xx_hd44780.c">
 <persistable path="/STM32F0_HD44780/lcd/stm32f0xx_hd44780.c"/>

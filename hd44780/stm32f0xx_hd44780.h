@@ -16,25 +16,30 @@
 #define LCD_CTRL_RS_GPIO_CLK        	RCC_AHBPeriph_GPIOB
 #define LCD_CTRL_RS_SOURCE          	GPIO_PinSource13
 
-#define LCD_CTRL_D4_PIN 				GPIO_Pin_8       		/* PC.8 */
-#define LCD_CTRL_D4_GPIO_PORT       	GPIOA                	/* GPIOA */
-#define LCD_CTRL_D4_GPIO_CLK        	RCC_AHBPeriph_GPIOA
-#define LCD_CTRL_D4_SOURCE          	GPIO_PinSource8
+#define LCD_CTRL_RW_PIN            		GPIO_Pin_14     		/* PB.14 */
+#define LCD_CTRL_RS_GPIO_PORT      	 	GPIOB               	/* GPIOB */
+#define LCD_CTRL_RS_GPIO_CLK        	RCC_AHBPeriph_GPIOB
+#define LCD_CTRL_RS_SOURCE          	GPIO_PinSource14
 
-#define LCD_CTRL_D5_PIN             	GPIO_Pin_9           	/* PC.9 */
-#define LCD_CTRL_D5_GPIO_PORT       	GPIOA                 	/* GPIOA */
-#define LCD_CTRL_D5_GPIO_CLK        	RCC_AHBPeriph_GPIOA
-#define LCD_CTRL_D5_SOURCE          	GPIO_PinSource9
+#define LCD_CTRL_D4_PIN 				GPIO_Pin_6       		/* PC.6 */
+#define LCD_CTRL_D4_GPIO_PORT       	GPIOC                	/* GPIOC */
+#define LCD_CTRL_D4_GPIO_CLK        	RCC_AHBPeriph_GPIOC
+#define LCD_CTRL_D4_SOURCE          	GPIO_PinSource6
 
-#define LCD_CTRL_D6_PIN             	GPIO_Pin_10        		/* PA.10 */
-#define LCD_CTRL_D6_GPIO_PORT       	GPIOA               	/* GPIOA */
-#define LCD_CTRL_D6_GPIO_CLK        	RCC_AHBPeriph_GPIOA
-#define LCD_CTRL_D6_SOURCE          	GPIO_PinSource10
+#define LCD_CTRL_D5_PIN             	GPIO_Pin_7           	/* PC.7 */
+#define LCD_CTRL_D5_GPIO_PORT       	GPIOC                 	/* GPIOC */
+#define LCD_CTRL_D5_GPIO_CLK        	RCC_AHBPeriph_GPIOC
+#define LCD_CTRL_D5_SOURCE          	GPIO_PinSource7
 
-#define LCD_CTRL_D7_PIN             	GPIO_Pin_11     		/* PA.11 */
-#define LCD_CTRL_D7_GPIO_PORT       	GPIOA               	/* GPIOA */
-#define LCD_CTRL_D7_GPIO_CLK        	RCC_AHBPeriph_GPIOA
-#define LCD_CTRL_D7_SOURCE      		GPIO_PinSource11
+#define LCD_CTRL_D6_PIN             	GPIO_Pin_8        		/* PA.8 */
+#define LCD_CTRL_D6_GPIO_PORT       	GPIOC               	/* GPIOC */
+#define LCD_CTRL_D6_GPIO_CLK        	RCC_AHBPeriph_GPIOC
+#define LCD_CTRL_D6_SOURCE          	GPIO_PinSource8
+
+#define LCD_CTRL_D7_PIN             	GPIO_Pin_9     		/* PA.9 */
+#define LCD_CTRL_D7_GPIO_PORT       	GPIOC               	/* GPIOC */
+#define LCD_CTRL_D7_GPIO_CLK        	RCC_AHBPeriph_GPIOC
+#define LCD_CTRL_D7_SOURCE      		GPIO_PinSource9
 
 #define LCD_LINE_LENGTH					(uint8_t)16
 #define LCD_LINE_TWO_ADDR				(uint8_t)64

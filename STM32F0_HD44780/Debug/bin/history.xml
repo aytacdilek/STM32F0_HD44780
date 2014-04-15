@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="4.7.4 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=DENEME.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F0_HD44780 -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F0_HD44780/arm-gcc-link.ld -g">
-      <target file="DENEME.elf" lastModified="14564e09110">
-         <source file="..\obj\stm32f0xx_rcc.o" lastModified="14564e08940"/>
-         <source file="..\obj\main.o" lastModified="14564e08940"/>
-         <source file="..\obj\stm32f0xx_hd44780.o" lastModified="14564e08940"/>
-         <source file="..\obj\startup_stm32f0xx.o" lastModified="14564e08940"/>
-         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="14564e08940"/>
-         <source file="..\obj\stm32f0xx_gpio.o" lastModified="14564e08940"/>
+      <target file="DENEME.elf" lastModified="14564f9ce00">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="14564f9c630"/>
+         <source file="..\obj\main.o" lastModified="14564f9ce00"/>
+         <source file="..\obj\stm32f0xx_hd44780.o" lastModified="14564f9ce00"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="14564f9ce00"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="14564f9ce00"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="14564f9ce00"/>
       </target>
    </processor>
 </history>
